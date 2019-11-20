@@ -14,7 +14,7 @@ export default class Bomb extends Component {
 
     render() {
         return(
-            this.bombTimer()
+            <div>{this.bombTimer()}</div>
         )
     }
 }
